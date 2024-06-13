@@ -1,7 +1,7 @@
 """Global Mean Surface Temperature (GMST) data processing utilities.
 
 This module provides functions to load and process GMST data from
-different sources. It contains the following functions:
+different sources. It contains the following main functions:
 
     * annual_global_gistemp: Load the annual GMST data from the GISTEMP 
         dataset from 1880 to 2022.

@@ -1,16 +1,19 @@
 """LENS data access functions.
 
 This module provides functions to access LENS posprocessed data. It  
-contains the following functions:
+contains the following main functions:
 
     * lens1_cchile_gridpoints: Access the LENS1 precipitation data from 1920
-        to 2100. 
+        to 2100 covering the Chilean territory from 30 to 37ºS and take the
+        spatial average.
         
     * lens1_cchile_gridpoints_cr: Access the LENS1 precipitation data from 
-        the control run.
+        the control run covering the Chilean territory from 30 to 37ºS and 
+        take the spatial average.
     
     * lens2_cchile_gridpoints: Access the LENS2 precipitation data from 1850
-        to 2100.
+        to 2100 covering the Chilean territory from 30 to 37ºS and take the    
+        spatial average.
         
     * lens1_annual_gmst_ensmean: Access the LENS1 40-member ensemble-mean 
         annual GMST data from 1920 to 2100.
