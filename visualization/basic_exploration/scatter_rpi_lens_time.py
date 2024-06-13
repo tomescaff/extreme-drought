@@ -62,7 +62,7 @@ plt.scatter(x, y, s=10, facecolor='grey',
 plt.scatter(obs_rpi1.time.dt.year, obs_rpi1, s=10, c='red', label='RPI1')
 plt.plot(y_mean_time, y_mean, c='fuchsia', label='LENS1 mean')
 plt.axhline(0, c='black', linestyle='--')
-plt.axhline(obs_rpi1_p05.values, c='b', ls='--', label='RPI1 5th perc.') 
+plt.axhline(obs_rpi1_p05.values, c='b', ls='--', label='RPI1 5th perc.')  # type: ignore 
 plt.legend()
 plt.ylabel('Precipitation standardized anomaly')
 plt.xlabel('Time (yr)')
@@ -80,7 +80,7 @@ plt.scatter(x, y, s=10, facecolor='grey',
 plt.scatter(obs_rpi1.time.dt.year, obs_rpi1, s=10, c='red', label='RPI1')
 plt.plot(y_mean_time, y_mean, c='fuchsia', label='LENS2 mean')
 plt.axhline(0, c='black', linestyle='--')
-plt.axhline(obs_rpi1_p05.values, c='b', ls='--', label='RPI1 5th perc.')
+plt.axhline(obs_rpi1_p05.values, c='b', ls='--', label='RPI1 5th perc.')  # type: ignore
 plt.legend()
 plt.ylabel('Precipitation standardized anomaly')
 plt.xlabel('Time (yr)')
