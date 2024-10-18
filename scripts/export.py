@@ -1,7 +1,11 @@
 """Module for exporting data to various formats."""
 
-import lens
+import sys
 import pandas as pd
+
+sys.path.append('home/tcarrasco/repo/extreme-drought')
+
+from utilities import lens
 
 def export_lens1_cchile_gridpoints_as_csv():
     """Export the LENS1 yearly precipitation data from 1920 to 2100 over
