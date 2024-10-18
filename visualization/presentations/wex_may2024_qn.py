@@ -49,7 +49,7 @@ plt.bar(obs_qn.time.dt.year, obs_qn, width=0.9, fc='lightgrey', ec='k', lw=1.0)
 plt.ylabel('Precipitation at Quinta Normal (std. anomaly)')
 plt.xlim([1850, 2100])
 plt.tight_layout()
-basedir = '/home/tcarrasco/result/images/png/'
+basedir = '/home/tcarrasco/result/images/extreme-drought/'
 filename = 'HD_wex_d101.png'
 filepath = basedir + filename
 plt.savefig(filepath, dpi=300)
@@ -66,7 +66,7 @@ plt.axhline(th, color='fuchsia', lw=1.0, ls='--') # type: ignore
 plt.ylabel('Precipitation at Quinta Normal (std. anomaly)')
 plt.xlim([1850, 2100])
 plt.tight_layout()
-basedir = '/home/tcarrasco/result/images/png/'
+basedir = '/home/tcarrasco/result/images/extreme-drought/'
 filename = 'HD_wex_d102.png'
 filepath = basedir + filename
 plt.savefig(filepath, dpi=300)
