@@ -89,7 +89,7 @@ plt.xlim([1850, 2100])
 plt.tight_layout()
 
 # save plot
-basedir = '/home/tcarrasco/result/images/png/'
+basedir = '/home/tcarrasco/result/images/extreme-drought/'
 filename = 'HD_rpi_lens_timeseries.png'
 filepath = basedir + filename
 plt.savefig(filepath, dpi=300)

@@ -89,7 +89,7 @@ plt.xlabel('GMST smoothed anomaly (ºC) [2011-2020]')
 plt.tight_layout()
 
 # save plot
-basedir = '/home/tcarrasco/result/images/png/'
+basedir = '/home/tcarrasco/result/images/extreme-drought/'
 filename = 'HD_rpi_lens_gmst.png'
 filepath = basedir + filename
 plt.savefig(filepath, dpi=300)
